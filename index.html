@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Real Estate Listings</title>
+  <style>body{font-family:Arial;margin:20px}label{display:block;margin-top:8px}.property{border:1px solid #ccc;padding:8px;margin:8px 0}</style>
+</head>
+<body>
+  <h1>Real Estate</h1>
+  <p>Simple property list, filters and inquiry.</p>
+
+  <h2>Filters</h2>
+  <label>City
+    <select>
+      <option>Any</option>
+      <option>Mumbai</option>
+      <option>Delhi</option>
+      <option>Bengaluru</option>
+    </select>
+  </label>
+
+  <label>Type
+    <select>
+      <option>Any</option>
+      <option>Apartment</option>
+      <option>House</option>
+    </select>
+  </label>
+
+  <h2>Listings</h2>
+  <div class="property">
+    <strong>2BHK Apartment</strong>
+    <div>City: Mumbai</div>
+    <div>Price: ₹75,00,000</div>
+  </div>
+
+  <div class="property">
+    <strong>3BHK House</strong>
+    <div>City: Delhi</div>
+    <div>Price: ₹1,20,00,000</div>
+  </div>
+
+  <h2>Inquiry</h2>
+  <form>
+    <label>Name <input type="text" name="name"></label>
+    <label>Email <input type="email" name="email"></label>
+    <label>Message <textarea name="message"></textarea></label>
+    <button type="submit">Send</button>
+  </form>
+</body>
+</html>
